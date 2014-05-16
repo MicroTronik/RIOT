@@ -49,7 +49,7 @@ and the mailinglist (subscription via web site)
  * @note    $Id$
  */
 
-typedef struct toprint_t {
+typedef struct {
     unsigned int len;
     char content[];
 } toprint_t;
